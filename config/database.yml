@@ -14,8 +14,8 @@ default: &default
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password:
-  socket: /tmp/mysql.sock
+  password: Meoluoi1309@
+  socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *default
@@ -40,7 +40,7 @@ test:
 # On Heroku and other platform providers, you may have a full connection URL
 # available as an environment variable. For example:
 #
-#   DATABASE_URL="mysql2://myuser:mypass@localhost/somedatabase"
+#   DATABASE_URL="mysql2://myuselr:mypass@localhost/somedatabase"
 #
 # You can use this database configuration with:
 #
